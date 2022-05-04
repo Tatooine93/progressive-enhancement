@@ -81,7 +81,7 @@ header > p {
   background-color: yellow;
 }
 
-body > section > blockquote > h2 > q {
+body > section > blockquote > p > h2 > q {
   font-style: italic;
 }
 
