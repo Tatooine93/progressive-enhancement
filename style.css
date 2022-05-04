@@ -1,20 +1,103 @@
 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 3px;
-    line-height: 1.5;
-    color: rgb(0, 46, 107);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: rgb(0, 20, 46);
 }
 
 a:link {
-    color: red;
-}
-
-/*a:hover {
-    color:blue;
-    text-decoration: underline;
+  color: rgb(0, 20, 46);
+  text-decoration: underline;
 }
 
 a:visited {
-    color:grey;
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+body {
+  max-width: 90%;
+  margin: auto;
+  background: radial-gradient(rgb(255, 255, 255), rgb(85, 85, 85));
+}
+
+/*body {
+    background-image: url('https://st2.depositphotos.com/2013817/9205/v/950/depositphotos_92055096-stock-illustration-background-with-artist-and-writer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right ;
+
+}*/
+
+/*blockquote {
+
+    max-width: 50%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-left: solid 3px rgb(0, 0, 0);
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;  
+    
+}
+q {
+    font-size: 160%;
+    font-style: italic;
+}*/
+
+q {
+  max-width: 50%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-left: solid 3px rgb(0, 0, 0);
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: block;
+
+  font-size: 160%;
+  font-style: italic;
+}
+
+.villagers {
+  border-left: solid 3px rgb(97, 0, 100);
+}
+
+.farmer {
+  border-left: solid 3px rgb(30, 95, 0);
+}
+
+header > p > time {
+  background-color: yellow;
+}
+
+body > section > blockquote > h2 > p > q {
+  font-style: italic;
+}
+
+.good,
+.bad {
+  text-transform: capitalize;
+}
+
+.good {
+  color: green;
+}
+
+.bad {
+  color: red;
+}
+
+th,
+td {
+  border-collapse: collapse;
+  text-align: left;
+  width: 80%;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
