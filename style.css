@@ -1,3 +1,7 @@
+html {
+  font-family: "Open sans";
+}
+
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -24,7 +28,7 @@ a:hover {
 body {
   max-width: 90%;
   margin: auto;
-  background: radial-gradient(rgb(255, 255, 255), rgb(85, 85, 85));
+  background: radial-gradient(rgb(255, 255, 255), rgb(173, 173, 173));
 }
 
 /*body {
@@ -36,7 +40,6 @@ body {
 }*/
 
 /*blockquote {
-
     max-width: 50%;
     margin: auto;
     background-color: rgba(128, 128, 128, 0.5);
@@ -46,6 +49,7 @@ body {
     margin-bottom: 80px;  
     
 }
+
 q {
     font-size: 160%;
     font-style: italic;
@@ -94,10 +98,29 @@ body > section > blockquote > h2 > p > q {
   color: red;
 }
 
+table,
 th,
 td {
   border-collapse: collapse;
   text-align: left;
-  width: 80%;
   border-bottom: 1px solid rgb(0, 0, 0);
+  width: 50%;
+}
+table {
+  background-color: white;
+}
+
+th,
+tr:nth-child(even) {
+  background-color: rgb(175, 175, 175);
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+img {
+  max-width: 40%;
+  float: left;
+  margin: 20px;
 }
