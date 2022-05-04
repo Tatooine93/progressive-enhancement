@@ -77,7 +77,7 @@ q {
   border-left: solid 3px rgb(30, 95, 0);
 }
 
-header > p > time {
+header > p {
   background-color: yellow;
 }
 
