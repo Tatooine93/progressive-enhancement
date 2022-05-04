@@ -81,7 +81,7 @@ header > p {
   background-color: yellow;
 }
 
-body > section > blockquote > h2 > p > q {
+body > section > blockquote > h2 > q {
   font-style: italic;
 }
 
@@ -106,6 +106,7 @@ td {
   border-bottom: 1px solid rgb(0, 0, 0);
   width: 50%;
 }
+
 table {
   background-color: white;
 }
