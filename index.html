@@ -1,128 +1,153 @@
 <!DOCTYPE html>
-<html lan="en">
-   <head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Progressive Enhancement</title>
+    <link href="reset.css" rel="resetcss" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-      <meta charset="UTF-8">
-      <title>Progressive Enhancement</title>
-      <link href="reset.css" rel="resetcss">
-      <link href="style.css" rel="stylesheet">
+  <body>
+    <article>
+      <header>
+        <h1>The Story of the Chinese Farmer</h1>
 
-   </head>
+        <p>11 may 2016, Alexandre Gorius</p>
+      </header>
 
-   <body>
+      <img
+        src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg"
+        alt="Alexander Gorius"
+      />
 
-      <article>
+      <section>
+        Preamble
 
-         <header>
+        <ul>
+          <li><p>read this once</p></li>
+          <li><p>then read it again</p></li>
+          <li><p>then tell it to your best friend</p></li>
+        </ul>
 
-            <h1>The Story of the Chinese Farmer</h1>
+        <blockquote>
+          <h2>
+            The story Once upon a time there was a Chinese farmer whose horse
+            ran away. That evening, all of his neighbors came around to
+            commiserate. They said,
+            <q class="villagers"
+              >We are so sorry to hear your horse has run away. This is most
+              unfortunate.</q
+            >
+            The farmer said, <q class="farmer">Maybe.</q> The next day the horse
+            came back bringing seven wild horses with it, and in the evening
+            everybody came back and said,
+            <q class="villagers"
+              >Oh, isn’t that lucky. What a great turn of events. You now have
+              eight horses!</q
+            >
+            The farmer again said, <q class="farmer">Maybe.</q> The following
+            day his son tried to break one of the horses, and while riding it,
+            he was thrown and broke his leg. The neighbors then said,
+            <q class="villagers"
+              >Oh dear, that’s too <b class="bad"> Bad</b>,</q
+            >
+            and the farmer responded, <q class="farmer">Maybe.</q> The next day
+            the conscription officers came around to conscript people into the
+            army, and they rejected his son because he had a broken leg. Again
+            all the neighbors came around and said,
+            <q class="villagers">Isn’t that great!</q> Again, he said,
+            <q class="farmer">Maybe.</q> The whole process of nature is an
+            integrated process of immense complexity, and it’s really impossible
+            to tell whether anything that happens in it is
+            <b class="good"> good</b> or <b class="bad"> Bad</b> — because you
+            never know what will be the consequence of the misfortune; or, you
+            never know what will be the consequences of
+            <b class="good"> good</b> fortune.
+          </h2>
 
-            <p>11 may 2016, Alexandre Gorius</p>
-            
+          <cite>Alan Watts</cite>
+        </blockquote>
+      </section>
 
-         </header>
+      <figure>
+        <p>Here is this dialog in the form of a table</p>
 
-         <img src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="Alexander Gorius"/>
-         
-         <section>
+        <table>
+          <caption>
+            Table representing the farmer's philosophy.
+          </caption>
 
-            Preamble
-            
-               <ul>
-                  <li><p>read this once</p></li>
-                  <li><p>then read it again</p></li>
-                  <li><p>then tell it to your best friend</p></li>
-               </ul>
-            
-            <blockquote>
-               
-               <h2>
-                  
-                  The story
-                  Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="villagers">We are so sorry to hear your horse has run away. This is most unfortunate.</q> The farmer said, <q class="farmer">Maybe.</q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="villagers">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <q class="farmer">Maybe.</q> 
-                  The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="villagers">Oh dear, that’s too <b class= "bad"> Bad</b>,</q> and the farmer responded, <q class="farmer">Maybe.</q> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="villagers">Isn’t that great!</q> Again, he said, <q class="farmer">Maybe.</q>
-                  The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <b class= "good"> good</b> or <b class= "bad"> Bad</b> — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of <b class= "good"> good</b> fortune.
-   
-               </h2>
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th><b class="good"> good</b> or <b class="bad"> Bad</b></th>
+            </tr>
+          </thead>
 
-               <cite>Alan Watts</cite>
-               
-            </blockquote>
-            
-         </section>
-         
-         <figure>
+          <tbody>
+            <tr>
+              <td>Lose a horse</td>
+              <td><em>Maybe</em></td>
+            </tr>
 
-            <p>Here is this dialog in the form of a table</p>
+            <tr>
+              <td>Win more horses</td>
+              <td><em>Maybe</em></td>
+            </tr>
 
-            <table>
+            <tr>
+              <td>Son injury</td>
+              <td><em>Maybe</em></td>
+            </tr>
 
-                
+            <tr>
+              <td>Avoid war</td>
+              <td><em>Maybe</em></td>
+            </tr>
+          </tbody>
+        </table>
+      </figure>
 
-               <thead>
-                  <tr> 
-                     <th>Event</th>
-                     <th><b class= "good"> good</b> or <b class= "bad"> Bad</b></th>
-                  </tr>
-               </thead>
+      Conclusion<br />
+      <b class="good"> good</b> and <b class="bad"> Bad</b> are just one
+      perspective. Bananas are <b class="good"> good</b> for monkeys, but
+      monkeys are not <b class="good"> good</b> for bananas. Let's not make a
+      big deal out of it...
+    </article>
 
-               <tbody>
+    <article>
+      <h3>Others articles</h3>
 
-                  <tr>
-                     <td>Lose a horse</td>
-                     <td><em>Maybe</em></td>
-                  </tr>
+      <p>
+        <a
+          href="https://wellsbaum.blog/the-brilliance-in-absurdity/"
+          target="_blank"
+          title="The brilliance in absurdity"
+          >The brilliance in absurdity</a
+        ><br />
+        <a
+          href="https://wellsbaum.blog/thinking-things-through/"
+          target="_blank"
+          title="Thinking things through"
+          >Thinking things through</a
+        ><br />
+        <a
+          href="https://wellsbaum.blog/conformity-as-a-preventative-structure/"
+          target="_blank"
+          title="Conformity as a preventive structure"
+          >Conformity as a preventive structure</a
+        ><br />
+      </p>
+    </article>
 
-                  <tr>
-                     <td>Win more horses</td>
-                     <td><em>Maybe</em></td>
-                  </tr>
-
-                  <tr>
-                     <td>Son injury</td>
-                     <td><em>Maybe</em></td>
-                  </tr>
-
-                  <tr>
-                     <td>Avoid war</td>
-                     <td><em>Maybe</em></td>
-                  </tr>
-
-               </tbody>
-               
-            </table>
-
-            <caption>Table representing the farmer's philosophy.</caption>
-
-         </figure>
-
-         Conclusion</br>
-         <b class= "good"> good</b> and <b class= "bad"> Bad</b> are just one perspective. Bananas are <b class= "good"> good</b> for monkeys, but monkeys are not <b class= "good"> good</b> for bananas. Let's not make a big deal out of it...
-
-      </article>
-
-      <article>
-
-         <h3>Others articles</h3>
-
-         <p>
-
-            <a href="https://wellsbaum.blog/the-brilliance-in-absurdity/" target="_blank" title="The brilliance in absurdity">The brilliance in absurdity</a><br>
-            <a href="https://wellsbaum.blog/thinking-things-through/" target="_blank" title="Thinking things through">Thinking things through</a><br>
-            <a href="https://wellsbaum.blog/conformity-as-a-preventative-structure/" target="_blank" title="Conformity as a preventive structure">Conformity as a preventive structure</a><br>
-               
-         </p>
-
-         
-      </article>
-
-      <footer>
-
-         Copyright Just Another Company 2017. All right reserved. 
-         <a href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/" target="_blank" title="The story of the chinese farmer - Alan Watts">Adapted from this article</a>
-
-      </footer>
-      
-   </body>
-   </html>
-
+    <footer>
+      Copyright Just Another Company 2017. All right reserved.
+      <a
+        href="https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/"
+        target="_blank"
+        title="The story of the chinese farmer - Alan Watts"
+        >Adapted from this article</a
+      >
+    </footer>
+  </body>
+</html>
